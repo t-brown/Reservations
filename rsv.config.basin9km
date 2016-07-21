@@ -33,4 +33,4 @@ taskcount=88
 timelen=300
 
 # hostlist -- Range of hosts where this reservation may be created
-hostlist=v[1-148]
+hostlist=v[140-288]
