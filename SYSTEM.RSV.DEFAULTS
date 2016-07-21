@@ -1,0 +1,16 @@
+# Default Configuration file for Reservation
+
+# days -- schedule for the reservation (always do DAYS)
+days=SUN,MON,TUES,WED,THU,FRI,SAT
+
+# period -- schedule for frequency
+period=DAY
+
+# flags -- Flags for reservation
+flags=BYNAME,DEDICATEDRESOURCE,IGNIDLEJOBS
+
+# access -- how to access reservation
+access=DEDICATED
+
+# depth -- So Moab will always schedule reservations at least 48hrs out
+depth=2

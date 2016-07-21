@@ -1,0 +1,41 @@
+# Configuration file for Reservation
+
+# basename -- base name of the reservation
+basename=hrrr
+nohourtag=1
+
+# user -- name of user for reservation
+user=rtrr
+
+# user to charge unused res core hours to
+chargeuser=rtrr
+
+# account -- name of account for reservation
+account=rtwbl
+
+# account to charge unused res core hours to
+chargeaccount=rtwbl
+
+# Only setup the reservation on weekdays
+period=INFINITY
+#days=MON
+
+# Specify the necessary class (queue)
+partition=vjet
+
+# hours -- List of hours that the reservation starts.
+#  This can be a list (1,3,10,21)
+#  Or it can be increment list with +.  Ex (+1) means every hour.
+#  (+4) means every four hours
+
+hours=0
+
+# offset -- number of minutes after the hour to start the reservation
+offset=0
+
+# taskcount -- Number of tasks (nodes) that the reservation requires
+taskcount=76
+
+# timelen -- Amount of time for run in minutes
+timelen=0
+
