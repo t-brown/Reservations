@@ -1,0 +1,37 @@
+# Configuration file for Reservation
+
+# basename -- base name of the reservation
+basename=utah
+nohourtag=0
+
+# user -- name of user for reservation
+user=rthfip-utah
+
+# account -- name of account for reservation
+account=rthfip-utah
+
+# Only setup the reservation on weekdays
+period=DAY
+#days=MON
+
+# Specify the necessary class (queue)
+partition=tjet
+
+# hours -- List of hours that the reservation starts.
+#  This can be a list (1,3,10,21)
+#  Or it can be increment list with +.  Ex (+1) means every hour.
+#  (+4) means every four hours
+hours=+12
+
+# offset -- number of minutes after the hour to start the reservation
+offset=210
+
+# taskcount -- Number of tasks (nodes) that this reservation requires
+# 246 nodes, 3904 cores/16 + 2 spare nodes
+taskcount=42
+
+# timelen -- Amount of time for run in minutes
+timelen=360
+
+# hostlist -- Range of hosts where this reservation may be created
+hostlist=t[1-498]
