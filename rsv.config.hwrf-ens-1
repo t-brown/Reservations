@@ -28,7 +28,7 @@ cases=1
 hours=+6
 
 # offset -- number of minutes after the hour to start the reservation
-offset=385
+offset=390
 
 # taskcount -- Number of tasks (nodes) that this reservation requires
 # 246 nodes, 3904 cores/16 + 2 spare nodes
