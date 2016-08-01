@@ -30,10 +30,10 @@ offset=360
 
 # taskcount -- Number of tasks (nodes) that this reservation requires
 # 32 nodes, 384/12, 1 spare node
-taskcount=30
+taskcount=2
 
 # timelen -- Amount of time for run in minutes
-timelen=60
+timelen=20
 
 # hostlist -- Range of hosts where this reservation may be created
 hostlist=t[1-498]
