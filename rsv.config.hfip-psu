@@ -14,7 +14,7 @@ account=rthfip-psu
 period=DAY
 
 # Number of identical cases to create
-cases=4
+cases=1
 
 # Specify the necessary class (queue)
 partition=tjet
