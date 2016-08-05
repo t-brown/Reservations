@@ -31,7 +31,7 @@ offset=210
 taskcount=42
 
 # timelen -- Amount of time for run in minutes
-timelen=150
+timelen=480
 
 # hostlist -- Range of hosts where this reservation may be created
 hostlist=t[1-498]
