@@ -1,7 +1,7 @@
 # Configuration file for Reservation
 
 # basename -- base name of the reservation
-basename=hfip-psu
+basename=hfip-psu-pp
 nohourtag=0
 
 # user -- name of user for reservation
