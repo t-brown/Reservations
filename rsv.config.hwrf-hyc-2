@@ -11,7 +11,7 @@ user=hurrun
 account=rthwrfv3
 
 # Only setup the reservation on weekdays
-period=DAY
+period=INFINITY
 #days=MON
 
 # Specify the necessary class (queue)
@@ -25,17 +25,17 @@ cases=1
 #  This can be a list (1,3,10,21)
 #  Or it can be increment list with +.  Ex (+1) means every hour.
 #  (+4) means every four hours
-hours=+6
+hours=0
 
 # offset -- number of minutes after the hour to start the reservation
-offset=215
+offset=0
 
 # taskcount -- Number of tasks (nodes) that this reservation requires
 # 246 nodes, 3904 cores/16 + 2 spare nodes
-taskcount=53
+taskcount=63
 
 # timelen -- Amount of time for run in minutes
-timelen=340
+timelen=0
 
 # hostlist -- Range of hosts where this reservation may be created
-hostlist=u[1-590]
+hostlist=u[516-590]
