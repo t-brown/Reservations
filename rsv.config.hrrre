@@ -11,10 +11,10 @@ user=rtrr,wrfruc
 chargeuser=rtrr
 
 # account -- name of account for reservation
-account=wrfruc
+account=rtwrfruc
 
 # account to charge unused res core hours to
-chargeaccount=wrfruc
+chargeaccount=rtwrfruc
 
 # Only setup the reservation on weekdays
 period=INFINITY
@@ -34,7 +34,7 @@ hours=0
 offset=0
 
 # taskcount -- Number of tasks (nodes) that the reservation requires
-taskcount=160
+taskcount=172
 
 # timelen -- Amount of time for run in minutes
 timelen=0
