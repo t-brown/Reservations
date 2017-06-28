@@ -1,0 +1,30 @@
+# Configuration file for Reservation
+
+# basename -- base name of the reservation
+basename=rthwrf-ens
+partition=xjet
+
+# user -- name of user for reservation
+user=rthwrfv3
+account=rthwrfv3
+
+cases=1
+# hours -- List of hours that the reservation starts.
+#  This can be a list (1,3,10,21)
+#  Or it can be increment list with +.  Ex (+1) means every hour.
+#  (+4) means every four hours
+hours=+6
+
+# offset -- number of minutes after the hour to start the reservation
+offset=360
+
+# taskcount -- Number of tasks (nodes) that this reservation requires
+#              The nodes
+taskcount=273
+
+# timelen -- Amount of time for run
+timelen=179
+
+# hostlist -- Range of hosts where this reservation may be created
+hostlist=x[1-644]
+

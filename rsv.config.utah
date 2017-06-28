@@ -1,43 +1,38 @@
 # Configuration file for Reservation
 
 # basename -- base name of the reservation
-basename=rap-post
-nohourtag=1
+basename=utah
+nohourtag=0
 
 # user -- name of user for reservation
-user=rtrr
-
-# user to charge unused res core hours to
-chargeuser=rtrr
+user=rthfip-utah
 
 # account -- name of account for reservation
-account=rtwbl
-
-# account to charge unused res core hours to
-chargeaccount=rtwbl
+account=rthfip-utah
 
 # Only setup the reservation on weekdays
-period=INFINITY
+period=DAY
 #days=MON
 
 # Specify the necessary class (queue)
-partition=vjet
+partition=ujet
 
 # hours -- List of hours that the reservation starts.
 #  This can be a list (1,3,10,21)
 #  Or it can be increment list with +.  Ex (+1) means every hour.
 #  (+4) means every four hours
-
-hours=0
+hours=+6
 
 # offset -- number of minutes after the hour to start the reservation
-offset=0
+offset=375
 
-# taskcount -- Number of tasks (nodes) that the reservation requires
-taskcount=4
+# taskcount -- Number of tasks (nodes) that this reservation requires
+# 246 nodes, 3904 cores/16 + 2 spare nodes
+taskcount=45
 
 # timelen -- Amount of time for run in minutes
-timelen=0
+timelen=190
 
 # hostlist -- Range of hosts where this reservation may be created
-hostlist=v[149-288]
+hostlist=u[1-450]
+

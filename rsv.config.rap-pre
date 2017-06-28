@@ -39,3 +39,5 @@ taskcount=4
 # timelen -- Amount of time for run in minutes
 timelen=0
 
+# hostlist -- Range of hosts where this reservation may be created
+hostlist=v[149-288]
